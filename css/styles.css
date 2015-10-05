@@ -27,11 +27,30 @@ nav	{
 	width: 80%;
 }
 header {
+	line-height: 70px;
 	float: left;
 }
 nav ul {
+	margin: 0;
+	padding: 0;
 	float: right;
 }
 nav li {
+	margin-left: 5px;
+	list-style: none;
 	display: inline-block;
+	line-height: 80px;
+}
+nav li a {
+	padding: 7px 15px;
+	text-decoration: none;
+	color: #fff;
+	-o-transition:color .25s ease-out;
+	-ms-transition:color .25s ease-out;
+	-moz-transition:color .25s ease-out;
+	-webkit-transition:color .25s ease-out;
+	transition:color .25s ease-out;
+}
+nav li a:hover {
+	color: #aaa;
 }

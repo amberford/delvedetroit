@@ -18,6 +18,8 @@ body {
 	font-family: "Montserrat";
 	/*background: url('../img/bg.png');*/
 }
+
+/* Navigation Styles */
 nav	{
 	margin: 0;
 	padding: 0;
@@ -63,16 +65,21 @@ nav li a {
 nav li a:hover {
 	color: #aaa;
 }
+
+/* Content Styles */
+
 main {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	display: inline-block;
+}
+#banner {
 	height: 400px;
 	background: url('/img/banner.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	display: inline-block;
 }
 main h1 {
 	text-align: center;
@@ -98,4 +105,15 @@ section p {
 }
 #featured div img {
 	width: 100%
+}
+
+/* Footer Styles */
+
+footer {
+	margin-top: 50px;
+	width: 100%;
+	background-color: #eee;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
 }

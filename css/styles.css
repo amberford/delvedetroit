@@ -86,8 +86,10 @@ main h1 {
 	line-height: 400px;
 }
 section	{
-	margin-top: 40px;
+	padding-top: 40px;
 	text-align: center;
+	display: block;
+	clear: both;
 }
 section h2 {
 	margin-bottom: 5px;

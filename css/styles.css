@@ -83,19 +83,27 @@ main {
 }
 #search {
 	margin: 0 auto;
-	width: 25%;
+	width: 30%;
 	text-align: center;
 	line-height: 400px;
 }
 #search input {
-	width: 80%;
-	height: 2.5em;
+	width: 75%;
+	height: 40px;
+	padding-left: 10px;
+	vertical-align: middle;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2em;
 	margin: 0 auto;
 	border: none;
 }
 #search button {
-	width: 20%;
-	height: 2.5em;
+	width: 25%;
+	height: 40px;
+	font-size: 1em;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: middle;
 	font-family: "Montserrat", sans-serif;
 	border: none;
 }

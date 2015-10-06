@@ -122,6 +122,13 @@ article {
 	width: 24%;
 	display: inline-block;
 }
+#neighborhoods a {
+	text-decoration: none;
+	color: #000;
+}
+#neighborhoods img {
+	margin-top: 10px;
+}
 #featured img, #neighborhoods img {
 	width: 100%
 }
@@ -156,6 +163,15 @@ article {
 }
 #safety li{
 	padding: 15px;
+}
+
+/* TEXT
+=================================================*/
+h2 {
+	font-size: 1.5em;
+}
+p {
+	font-size: 1em;
 }
 
 /* FOOTER

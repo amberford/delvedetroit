@@ -16,10 +16,10 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Montserrat";
-	/*background: url('../img/bg.png');*/
 }
 
-/* Navigation Styles */
+/* NAVIGATION 
+=================================================*/
 nav	{
 	margin: 0;
 	padding: 0;
@@ -27,7 +27,6 @@ nav	{
 	height: 70px;
 	background-color: #eee;
 	float: left;
-/*	margin-bottom: 50px;*/
 }
 .wrapper, section {
 	margin: 0 auto;
@@ -65,19 +64,9 @@ nav li a {
 nav li a:hover {
 	color: #aaa;
 }
-#safetyli{
-	padding: 15px;
-}
 
-/*maps*/
-
- #map {
- 	width: 500px;
-    height: 400px;
-    background-color: #CCC;
-  }
-
-/* Content Styles */
+/* CONTENT
+=================================================*/
 
 main {
 	margin: 0;
@@ -110,6 +99,15 @@ section p {
 	margin: auto;
 	margin-bottom: 30px;
 }
+article {
+	width: 37%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* SUB-CONTENT
+=================================================*/
+
 #featured, #neighborhoods {
 	width: 100%;
 }
@@ -134,11 +132,6 @@ section p {
 #hood-content p {
 	width: 100%;
 }
-article {
-	width: 37%;
-	display: inline-block;
-	vertical-align: top;
-}
 .hood-image {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -161,7 +154,12 @@ article {
 #hood-sub-content li {
 	margin: 10px;
 }
-/* Footer Styles */
+#safety li{
+	padding: 15px;
+}
+
+/* FOOTER
+=================================================*/
 
 footer {
 	margin-top: 50px;
@@ -170,4 +168,12 @@ footer {
 	height: 70px;
 	line-height: 70px;
 	text-align: center;
+}
+
+/* MAPS
+=================================================*/
+#map {
+ 	width: 500px;
+    height: 400px;
+    background-color: #CCC;
 }

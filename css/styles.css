@@ -64,6 +64,20 @@ nav li a {
 nav li a:hover {
 	color: #aaa;
 }
+<<<<<<< HEAD
+=======
+#safety li{
+	padding: 15px;
+}
+
+/*maps*/
+
+ #map {
+ 	width: 500px;
+    height: 400px;
+    background-color: #CCC;
+  }
+>>>>>>> fed163b652098a6f96a125e4a13745c481bdc533
 
 /* CONTENT
 =================================================*/

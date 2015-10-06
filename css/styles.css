@@ -111,6 +111,7 @@ section p {
 	padding: 10px;
 	margin: 0;
 	width: 24%;
+	display: inline-block;
 }
 #featured img, #neighborhoods img {
 	width: 100%

@@ -1,4 +1,4 @@
-var app = angular.module('delveApp', ['ngRoute']);
+var app = angular.module('delveApp', ['ngRoute', 'ngAnimate']);
 
 app.config(function($routeProvider) {
 	$routeProvider.when('/',
@@ -43,3 +43,20 @@ app.config(function($routeProvider) {
 		templateUrl: '/partials/404.html' 
 	});
 });
+animation('.reveal-animation', function() {
+  return {
+    enter: function(element, done) {
+      element.css('display', 'none');
+      element.fadeIn(5000, done);
+      return function() {
+        element.stop();
+      }
+    },
+    leave: function(element, done) {
+      element.fadeOut(5000, done)
+      return function() {
+        element.stop();
+      }
+    }
+  }
+})

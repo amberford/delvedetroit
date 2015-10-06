@@ -159,6 +159,7 @@ article {
 	width: 33%;
 }
 #hood-sub-content li {
+	list-style-type: none;
 	margin: 10px;
 }
 /* Footer Styles */

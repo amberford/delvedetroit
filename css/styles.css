@@ -110,13 +110,45 @@ section p {
 #neighborhoods div {
 	padding: 10px;
 	margin: 0;
-	display: inline-block;
 	width: 24%;
 }
 #featured img, #neighborhoods img {
 	width: 100%
 }
-
+#hood-content div {
+	display: inline-block;
+	text-align: left;
+}
+#hood-content p {
+	width: 100%;
+}
+article {
+	width: 37%;
+	display: inline-block;
+	vertical-align: top;
+}
+.hood-image {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 60%;
+	height: 300px;
+	background: red;
+	margin-right: 2%;
+}
+.google-maps {
+	width: 100%;
+	height: 141px;
+	background: blue;
+	display: inline-block;
+}
+#hood-sub-content div {
+	display: inline-block;
+	width: 33%;
+}
+#hood-sub-content li {
+	margin: 10px;
+}
 /* Footer Styles */
 
 footer {

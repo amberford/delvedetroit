@@ -66,6 +66,14 @@ nav li a:hover {
 	color: #aaa;
 }
 
+/*maps*/
+
+ #map {
+ 	width: 500px;
+    height: 400px;
+    background-color: #CCC;
+  }
+
 /* Content Styles */
 
 main {
